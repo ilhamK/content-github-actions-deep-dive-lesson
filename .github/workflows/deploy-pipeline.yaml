@@ -69,7 +69,7 @@ jobs:
 
   convert_via_pandoc:
     name: Convert via Pandoc
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: mkdir output
