@@ -85,7 +85,7 @@
 
 on:
   workflow_dispatch:
-    inputs:
+   inputs:
       username:
         description: 'Your GitHub username'
         required: true
